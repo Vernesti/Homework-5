@@ -131,7 +131,7 @@ table {
 	max-width: 20em;
 	max-height: 16em;
 	box-shadow: -1px 0 10px black;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 5px;
 	
 }
@@ -197,7 +197,7 @@ table {
 	max-width: 20em;
 	min-height: 6em;
 	box-shadow: -1px 0 10px black;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 5px;
 	display: flex;
 	justify-content: center;
@@ -253,6 +253,7 @@ table {
 .content_prop {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 
 .prop_block {
@@ -261,7 +262,7 @@ table {
 	margin: 5em 1em 0 0;
 	max-height: 23em;
 	width: auto;
-	background: linear-gradient(to top, #f7f7f7, #aaaaaa);
+	background: rgba(255,255,255,0.7);
 	box-sizing: content-box;
 	box-shadow: 0 0 5px grey
 }
@@ -625,9 +626,6 @@ footer {
 		transition: 1s;
 		transform: scale(0.60);
 		top: -13px;
-	}
-	.content_prop {
-		justify-content: space-around;
 	}
 	.prop_block {
 		max-width: 200px
